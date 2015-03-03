@@ -12,12 +12,12 @@
 Summary:	Qt5 WebKit examples
 Summary(pl.UTF-8):	Przykłady do bibliotek Qt5 WebKit
 Name:		qt5-%{orgname}
-Version:	5.3.2
+Version:	5.4.1
 Release:	1
 License:	LGPL v2+
 Group:		X11/Libraries
-Source0:	http://download.qt-project.org/official_releases/qt/5.3/%{version}/submodules/%{orgname}-opensource-src-%{version}.tar.xz
-# Source0-md5:	6f88c2a99002801a1943483331f8b4f0
+Source0:	http://download.qt-project.org/official_releases/qt/5.4/%{version}/submodules/%{orgname}-opensource-src-%{version}.tar.xz
+# Source0-md5:	783bfd27e79769f3ceeb206a4921400b
 URL:		http://qt-project.org/
 BuildRequires:	OpenGL-devel
 BuildRequires:	Qt5Concurrent-devel >= %{qtbase_ver}
