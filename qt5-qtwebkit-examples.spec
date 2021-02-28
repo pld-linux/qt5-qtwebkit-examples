@@ -66,9 +66,7 @@ Summary:	Qt5 WebKit examples documentation in HTML format
 Summary(pl.UTF-8):	Dokumentacja przykładów do bibliotek Qt5 WebKit w formacie HTML
 Group:		Documentation
 Requires:	qt5-doc-common >= %{qtbase_ver}
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description doc
 Qt5 WebKit examples documentation in HTML format.
@@ -81,9 +79,7 @@ Summary:	Qt5 WebKit examples documentation in QCH format
 Summary(pl.UTF-8):	Dokumentacja przykładów do bibliotek Qt5 WebKit w formacie QCH
 Group:		Documentation
 Requires:	qt5-doc-common >= %{qtbase_ver}
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description doc-qch
 Qt5 WebKit examples documentation in QCH format.
